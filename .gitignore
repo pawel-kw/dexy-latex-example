@@ -1,2 +1,4 @@
 .dexy/
 output/
+.ropeproject/
+.*.swp

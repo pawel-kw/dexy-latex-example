@@ -1,8 +1,11 @@
 article.tex|jinja|hd|ft|latex:
     - output: True
+    - .png
     - _header.tex
     - _footer.tex
     - "section-*.tex|jinja"
+    - plot.py|py:
+        - py: { add-new-files: True }
 
 section-/*.tex|jinja:
     - output: True
