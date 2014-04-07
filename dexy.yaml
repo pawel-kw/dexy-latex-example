@@ -1,0 +1,8 @@
+article.tex|jinja|hd|ft|latex:
+    - output: True
+    - _header.tex
+    - _footer.tex
+    - "section-*.tex|jinja"
+
+section-/*.tex|jinja:
+    - output: True
